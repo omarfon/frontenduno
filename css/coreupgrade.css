@@ -1,0 +1,77 @@
+header {
+  background-image: url(../../image/backroundheader.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-size: cover;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  text-shadow: 3px 2px 0 #5c4949;
+}
+
+.nav_left {
+  height: 100vh;
+  width: 100%;
+  background-color: #464045;
+  color: #fff;
+  text-align: center;
+}
+
+.nav_left li {
+  margin-left: 0;
+  padding: 2em;
+  font-weight: 200;
+  border-bottom: 1px solid #6e807a;
+  box-sizing: border-box;
+}
+
+.nav_left li:hover {
+  background-color: #5e575d;
+  color: #98df5b;
+}
+
+h5 {
+  color: #09b36b;
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+.nav_left a {
+  text-decoration: none;
+  color: #fff;
+  height: 101em;
+}
+
+.header_articulo {
+  text-align: center;
+}
+
+.titulo__header {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.fecha__header {
+  text-align: left;
+  font-size: 1.2em;
+  color: #9f9f9d;
+  font-weight: 200;
+}
+
+.contenido__articulo {
+  width: 85%;
+}
